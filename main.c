@@ -3,7 +3,7 @@
 #include "flib.h"
 
 int main(void) {
-    printf("Bonjour monsieur\n");
+    printf("Bonjour madame monsieur et les enfants et le chien\n");
     printf("1+4=%d\n", add(1, 4));
     printf("5-4=%d\n", sub(5, 4));
     printf("1x4=%d\n", mul(1, 4));
