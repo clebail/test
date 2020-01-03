@@ -6,6 +6,7 @@ int main(void) {
     printf("1+4=%d\n", add(1, 4));
     printf("5-4=%d\n", sub(5, 4));
     printf("1x4=%d\n", mul(1, 4));
+    printf("4/2=%d\n", div(4, 2));
     
     return 0;
 }
