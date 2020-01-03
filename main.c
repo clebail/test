@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "lib.h"
+#include "flib.h"
 
 int main(void) {
     printf("Bonjour monsieur\n");
@@ -11,7 +12,7 @@ int main(void) {
     printf("1+4=%f\n", fadd(1.0, 4.0));
     printf("5-4=%f\n", fsub(5.0, 4.0));
     printf("1x4=%f\n", fmul(1.0, 4.0));
-    printf("2/4=%f\n", fdiv(4.0, 2.0));
+    printf("2/4=%f\n", fdiv(2.0, 4.0));
     
     return 0;
 }
