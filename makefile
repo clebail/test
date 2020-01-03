@@ -5,7 +5,7 @@ ALL=test
 
 all: $(ALL)
 
-$(ALL): main.o
+$(ALL): main.o lib.o
 	$(CC) -o $@ $(LDFLAGS) $^
 
 %.o: %.c
