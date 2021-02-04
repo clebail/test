@@ -1,3 +1,4 @@
 [submodule "testsub"]
 	path = testsub
 	url = https://github.com/clebail/testsub.git
+	branch = master
