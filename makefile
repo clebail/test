@@ -1,7 +1,7 @@
 CC=gcc
 CFLGAS=-wall
 LDFLAGS=
-ALL=test
+ALL=testEX
 
 all: $(ALL)
 
