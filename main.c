@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "lib.h"
-#include "flib.h"
+#include <lib.h>
+#include <flib.h>
 
 int main(void) {
     printf("Bonjour madame monsieur et les enfants et le chien\n");

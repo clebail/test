@@ -1,11 +1,11 @@
 CC=gcc
-CFLGAS=-wall
-LDFLAGS=
+CFLAGS=-Wall -Itestsub
+LDFLAGS=-Ltestsub -ltest
 ALL=testEX
 
 all: $(ALL)
 
-$(ALL): main.o lib.o flib.o
+$(ALL): main.o
 	$(CC) -o $@ $(LDFLAGS) $^
 
 %.o: %.c
